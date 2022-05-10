@@ -1,0 +1,18 @@
+.keyboard_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.key_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.key {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 2.8em;
+  border-radius: 0.25rem;
+  margin: 0.18em;
+  min-width: 2em;
+  cursor: pointer;
+}

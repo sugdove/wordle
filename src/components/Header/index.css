@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 3em;
+  border-bottom: 1px #eee solid;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+.info_content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  min-width: 4em;
+}
+
+.scale_tras {
+  transform: scale(1.1);
+}
